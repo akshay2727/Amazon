@@ -30,7 +30,7 @@ const CheckOutProduct = ({ id, title, price,rating, description, category, image
   
   return (
     <div className="grid grid-cols-5">
-      <Image src={image} height={200} width={200} objectFit="contain" />
+      <Image src={image} height={200} width={200} objectfit="contain" alt="" />
 
       {/* Middle Part */}
       <div className="col-span-3 mx-5">
