@@ -11,13 +11,13 @@ module.exports = {
     compiler: {
         styledComponents: true,
       },
+      
+experimental:{
+    appDir: true
+},
     // webpack(config) {
     //     config.infrastructureLogging = { debug: /PackFileCache/ }
     //     return config;
     //   }
 };
 
-
-// experimental:{
-//     appDir: true
-// },
